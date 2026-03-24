@@ -35,3 +35,8 @@ The model is trained on a heart disease dataset using classification algorithms 
 - NumPy  
 
 ## 📂 Project Structure
+project/
+│── app.py
+│── model.pkl
+│── requirements.txt
+│── README.md
