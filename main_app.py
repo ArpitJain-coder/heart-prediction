@@ -3,6 +3,11 @@ import pandas as pd
 import numpy as np
 import joblib
 import os
+import warnings
+
+# Suppress scikit-learn version warnings for pickled models
+warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", message="Trying to unpickle estimator.*")
 
 # Set page config for a premium look
 st.set_page_config(
